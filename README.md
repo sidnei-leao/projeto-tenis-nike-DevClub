@@ -7,8 +7,11 @@ Projeto de uma página interativa de tênis Nike desenvolvido com HTML, CSS e Ja
 <div>
    <img width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
    <img width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3"/>
+   
+   <img width="48" height="48" src="<img width="48" height="48" alt="icons8-javascript" src="https://github.com/user-attachments/assets/b8f96cff-4799-413d-8703-4910b796dbe0" />
+" alt="css3"/>
 </div>
-- JavaScript
+
 
 ## 🎨 Funcionalidades
 
