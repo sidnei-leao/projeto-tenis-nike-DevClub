@@ -11,14 +11,16 @@ Projeto de uma página interativa de tênis Nike desenvolvido com HTML, CSS e Ja
 </div>
 
 
-## 🎨 Funcionalidades
+## <img width="50" height="50" alt="icons8-configurações" src="https://github.com/user-attachments/assets/5b476de0-82ae-450c-870d-b344b6c447ce" />
+ Funcionalidades
 
 - Troca de cor do fundo
 - Alteração da imagem do tênis
 - Layout responsivo
 - Animação flutuante do produto
 
-## 📸 Preview
+## <img width="50" height="50" alt="icons8-fotografia" src="https://github.com/user-attachments/assets/405a1149-7635-4f8f-a5d4-70bb68f2f4d7" />
+ Preview
 
 <img"<img width="1366" height="638" alt="tenis-nike-azul-redime" src="https://github.com/user-attachments/assets/5d74fbf5-8a5a-4186-b3ea-7d0cb4200c3f" />
 ">
