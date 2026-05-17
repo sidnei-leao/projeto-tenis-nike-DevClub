@@ -40,7 +40,7 @@ Projeto de uma página interativa de tênis Nike desenvolvido com HTML, CSS e Ja
 1. Clone o repositório
 
 ```bash
-git clone LINK_DO_REPOSITORIO
+git clone [LINK_DO_REPOSITORIO](https://github.com/sidnei-leao/projeto-tenis-nike-DevClub)
 ```
 
 2. Abra o arquivo `index.html`
