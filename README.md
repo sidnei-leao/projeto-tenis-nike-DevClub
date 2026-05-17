@@ -29,10 +29,12 @@ Projeto de uma página interativa de tênis Nike desenvolvido com HTML, CSS e Ja
 " />
 ">
 
-## 📂 Estrutura do projeto
+## <img width="48" height="48" alt="icons8-arquivo" src="https://github.com/user-attachments/assets/d2650115-21c1-42be-ba05-dc728433e758" />
+ Estrutura do projeto
 
 ```bash
-📁 assets
+<img width="48" height="48" alt="icons8-arquivo" src="https://github.com/user-attachments/assets/a1d86588-7fa2-4e19-8a36-a5384237343e" />
+ assets
 📄 index.html
 📄 styles.css
 📄 main.js
