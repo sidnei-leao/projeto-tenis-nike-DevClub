@@ -45,9 +45,9 @@ Projeto de uma página interativa de tênis Nike desenvolvido com HTML, CSS e Ja
 - 
 ## 🔗 Meu Perfil
 
-<img width="48" height="48" alt="icons8-github" src="https://github.com/user-attachments/assets/9647570b-83b7-473e-a3e4-00a3f9ea1f01" />
 
-- [🐙 GitHub](https://github.com/sidnei-leao)
+
+- [<img width="48" height="48" alt="icons8-github" src="https://github.com/user-attachments/assets/9647570b-83b7-473e-a3e4-00a3f9ea1f01" /> GitHub](https://github.com/sidnei-leao)
 
 ## 📌 Autor
 
