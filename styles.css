@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body {
+    background: rgb(62, 62, 250);
+    color: #fff;
+    padding: 20px 160px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body::before {
+    content: '';
+    background: #202020;
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    top: 0;
+    left: -600px;
+    transform: rotate(-70deg);
+}
+
+body::after {
+    content: "Nike";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 250px;
+    font-weight: bold;
+    opacity: 0.6;
+
+}
+
+.logo-nike {
+    width: 200px;
+    position: relative;
+    z-index: 2;
+    right: 50px;
+}
+
+.tenis {
+    width: 700px;
+    transform: rotate(-25deg) translateX(100px);
+    z-index: 9999;
+    margin-left: 200px;
+    animation: flutuar 4s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+    0% {
+        transform: rotate(-25deg) translateX(100px) translateY(0px);
+    }
+
+    50% {
+        transform: rotate(-25deg) translateX(100px) translateY(-20px);
+    }
+
+    100% {
+        transform: rotate(-25deg) translateX(100px) translateY(0px);
+    }
+}
+
+.caixa-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75%;
+    position: relative;
+    z-index: 1;
+}
+
+.caixa-texto {
+    max-width: 500px;
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: chartreuse;
+    margin-top: 50px;
+}
+
+.botao-carrinho {
+    background: chartreuse;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+.botao-carrinho:hover {
+    background: white;
+    color: black;
+}
+
+.caixa-botoes {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    z-index: 2;
+    bottom: 30px;
+}
+
+.botao {
+    width: 40px;
+    height: 40px;
+}
+
+.botao:active {
+    opacity: 0.6;
+}
+
+.azul {
+    background-color: #365fe4;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+
+}
+
+.rosa {
+    background-color: #FF69B4;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.verde {
+    background-color: #556B2F;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
