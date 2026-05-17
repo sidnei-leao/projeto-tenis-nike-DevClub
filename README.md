@@ -22,7 +22,7 @@
 - Alteração da imagem do tênis
 - Layout responsivo
 - Animação flutuante do produto
-
+<br><br><br>
 ## <img width="50" height="50" alt="icons8-fotografia" src="https://github.com/user-attachments/assets/405a1149-7635-4f8f-a5d4-70bb68f2f4d7" />
  # Preview
 
