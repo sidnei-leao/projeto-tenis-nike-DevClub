@@ -38,7 +38,10 @@ Projeto de uma página interativa de tênis Nike desenvolvido com HTML, CSS e Ja
 ## 🔗 Links
 
 - [Acessar repositório](https://github.com/sidnei-leao/projeto-tenis-nike-DevClub/tree/main)
-- [Meu GitHub](https://github.com/SEU-USUARIO)
+- 
+## 🔗 Meu Perfil
+
+- [🐙 GitHub](https://github.com/sidneiraya)
 
 2. Abra o arquivo `index.html`
 
