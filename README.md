@@ -43,8 +43,6 @@ Projeto de uma página interativa de tênis Nike desenvolvido com HTML, CSS e Ja
 
 - [🐙 GitHub](https://github.com/sidnei-leao)
 
-2. Abra o arquivo `index.html`
-
 ## 📌 Autor
 
 Feito por Sidnei leão 🚀
