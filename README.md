@@ -1,10 +1,14 @@
-# Projeto Tênis Nike
+<div align= center>
+    <h1>Tênis Nike</h1>
+</div>
+<br>
+<br>
 
-Projeto de uma página interativa de tênis Nike desenvolvido com HTML, CSS e JavaScript.
+## <p align="center">Projeto de uma página interativa de tênis Nike desenvolvido com HTML, CSS e JavaScript.</p>
 
-## 🚀 Tecnologias utilizadas
+## <p align="center">🚀 Tecnologias utilizadas
 
-<div>
+<div align="center">
   <img width="48" height="48" alt="icons8-html (1)" src="https://github.com/user-attachments/assets/763df4cf-fbeb-4019-b88d-276f185b8474" />
    <img width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3"/>
    <img width="48" height="48" alt="icons8-javascript" src="https://github.com/user-attachments/assets/b8f96cff-4799-413d-8703-4910b796dbe0" />
@@ -12,7 +16,7 @@ Projeto de uma página interativa de tênis Nike desenvolvido com HTML, CSS e Ja
 
 
 ## <img width="50" height="50" alt="icons8-configurações" src="https://github.com/user-attachments/assets/5b476de0-82ae-450c-870d-b344b6c447ce" />
- Funcionalidades
+ # Funcionalidades
 
 - Troca de cor do fundo
 - Alteração da imagem do tênis
@@ -20,7 +24,7 @@ Projeto de uma página interativa de tênis Nike desenvolvido com HTML, CSS e Ja
 - Animação flutuante do produto
 
 ## <img width="50" height="50" alt="icons8-fotografia" src="https://github.com/user-attachments/assets/405a1149-7635-4f8f-a5d4-70bb68f2f4d7" />
- Preview
+ # Preview
 
 <img"<img width="1366" height="638" alt="tenis-nike-azul-redime" src="https://github.com/user-attachments/assets/5d74fbf5-8a5a-4186-b3ea-7d0cb4200c3f" />
 ">
@@ -32,7 +36,7 @@ Projeto de uma página interativa de tênis Nike desenvolvido com HTML, CSS e Ja
 ">
 
 ## <img width="48" height="48" alt="icons8-arquivo" src="https://github.com/user-attachments/assets/d2650115-21c1-42be-ba05-dc728433e758" />
- Estrutura do projeto
+ # Estrutura do projeto
 
 ```bash
  assets
