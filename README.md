@@ -43,10 +43,9 @@
 📄 main.js
 ```
 
-## 🔗 Links
-
-- [Acessar repositório](https://github.com/sidnei-leao/projeto-tenis-nike-DevClub/tree/main)
-- 
+## 🔗 Acesse e veja o site no ar
+- https://sidnei-leao.github.io/projeto-tenis-nike-DevClub/
+  
 ## 🔗 Meu Perfil
 
 <div display: flex;>
