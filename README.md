@@ -44,7 +44,7 @@
 📄 main.js
 ```
 
-## 🔗 Acesse e veja o site no ar
+## 🔗 Acesse e veja o projeto on-line
 - https://sidnei-leao.github.io/projeto-tenis-nike-DevClub/
   
 ## 🔗 Meu Perfil
