@@ -30,7 +30,8 @@
 
 <img width="1366" height="641" alt="tenis-nike-rosa-redime" src="https://github.com/user-attachments/assets/ac22ea21-9ee8-46ef-9a74-e2c568c29e41" />
 
-<img width="1366" height="642" alt="tenis-nike-verde-redime" src="https://github.com/user-attachments/assets/24a77f17-9c7e-4fe0-884a-a0ea766fa4f2" />
+<img width="1366" height="639" alt="tenis-nike-verde-flutuando" src="https://github.com/user-attachments/assets/93bf26a0-8d52-47c7-a19b-76b3905074f2" />
+
 
 <br><br><br>
 ## <img width="48" height="48" alt="icons8-arquivo" src="https://github.com/user-attachments/assets/d2650115-21c1-42be-ba05-dc728433e758" />
