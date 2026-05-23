@@ -45,7 +45,7 @@
 ```
 
 ## 🔗 Acesse e veja o projeto on-line
-- https://sidnei-leao.github.io/projeto-tenis-nike-DevClub/
+- [Projeto Tênis Nike](https://sidnei-leao.github.io/projeto-tenis-nike-DevClub/)
   
 ## 🔗 Meu Perfil
 
@@ -57,6 +57,13 @@ https://github.com/sidnei-leao
 <img width="48" height="48" alt="icons8-linkedin" src="https://github.com/user-attachments/assets/2f3c52d3-000a-4de1-9ae2-4a90f47932bf" />
 www.linkedin.com/in/sidnei-raya-leão
 </div>
+
+<a href="" target="_blank">
+  <img src="https://shields.io" alt="GitHub">
+</a>
+<a href="https://linkedin.com" target="_blank">
+  <img src="https://shields.io" alt="LinkedIn">
+</a>
 
 ## 📌 Autor
 
