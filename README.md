@@ -45,10 +45,6 @@
 ```
 
 ## 🔗 Acesse e veja o projeto on-line
-<a href="https://sidnei-leao.github.io/projeto-tenis-nike-DevClub/" target="_blank">
-<img width="96" height="96" alt="icons8-nike-96" src="https://github.com/user-attachments/assets/58968c96-8d27-4fb9-9597-3d6a7b41e674" />
-</a>
-
 [![icons8-nike-96](https://github.com/user-attachments/assets/58968c96-8d27-4fb9-9597-3d6a7b41e674)](https://sidnei-leao.github.io/projeto-tenis-nike-DevClub/)
 
   
