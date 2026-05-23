@@ -22,19 +22,18 @@
 - Alteração da imagem do tênis
 - Layout responsivo
 - Animação flutuante do produto
-
+<br><br><br>
 ## <img width="50" height="50" alt="icons8-fotografia" src="https://github.com/user-attachments/assets/405a1149-7635-4f8f-a5d4-70bb68f2f4d7" />
  # Preview
 
-<img"<img width="1366" height="638" alt="tenis-nike-azul-redime" src="https://github.com/user-attachments/assets/5d74fbf5-8a5a-4186-b3ea-7d0cb4200c3f" />
-">
-<img"<img width="1366" height="641" alt="tenis-nike-rosa-redime" src="https://github.com/user-attachments/assets/ac22ea21-9ee8-46ef-9a74-e2c568c29e41" />
-" />
-">
-<img"<img width="1366" height="642" alt="tenis-nike-verde-redime" src="https://github.com/user-attachments/assets/24a77f17-9c7e-4fe0-884a-a0ea766fa4f2" />
-" />
-">
+<img width="1366" height="638" alt="tenis-nike-azul-redime" src="https://github.com/user-attachments/assets/5d74fbf5-8a5a-4186-b3ea-7d0cb4200c3f" />
 
+<img width="1366" height="641" alt="tenis-nike-rosa-redime" src="https://github.com/user-attachments/assets/ac22ea21-9ee8-46ef-9a74-e2c568c29e41" />
+
+<img width="1366" height="639" alt="tenis-nike-verde-flutuando" src="https://github.com/user-attachments/assets/93bf26a0-8d52-47c7-a19b-76b3905074f2" />
+
+
+<br><br><br>
 ## <img width="48" height="48" alt="icons8-arquivo" src="https://github.com/user-attachments/assets/d2650115-21c1-42be-ba05-dc728433e758" />
  # Estrutura do projeto
 
@@ -45,16 +44,19 @@
 📄 main.js
 ```
 
-## 🔗 Links
-
-- [Acessar repositório](https://github.com/sidnei-leao/projeto-tenis-nike-DevClub/tree/main)
-- 
+## 🔗 Acesse e veja o site no ar
+- https://sidnei-leao.github.io/projeto-tenis-nike-DevClub/
+  
 ## 🔗 Meu Perfil
 
-
-
-- [<img width="48" height="48" alt="icons8-github" src="https://github.com/user-attachments/assets/9647570b-83b7-473e-a3e4-00a3f9ea1f01" />
-GitHub](https://github.com/sidnei-leao)
+<div display: flex;>
+<img width="48" height="48" alt="icons8-github" src="https://github.com/user-attachments/assets/9647570b-83b7-473e-a3e4-00a3f9ea1f01" />
+https://github.com/sidnei-leao
+</div>
+<div display: flex;>
+<img width="48" height="48" alt="icons8-linkedin" src="https://github.com/user-attachments/assets/2f3c52d3-000a-4de1-9ae2-4a90f47932bf" />
+www.linkedin.com/in/sidnei-raya-leão
+</div>
 
 ## 📌 Autor
 
