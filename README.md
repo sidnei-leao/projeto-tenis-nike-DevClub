@@ -53,6 +53,10 @@
 <img width="48" height="48" alt="icons8-github" src="https://github.com/user-attachments/assets/9647570b-83b7-473e-a3e4-00a3f9ea1f01" />
 https://github.com/sidnei-leao
 </div>
+<div display: flex;>
+<img width="48" height="48" alt="icons8-linkedin" src="https://github.com/user-attachments/assets/2f3c52d3-000a-4de1-9ae2-4a90f47932bf" />
+www.linkedin.com/in/sidnei-raya-leão
+</div>
 
 ## 📌 Autor
 
