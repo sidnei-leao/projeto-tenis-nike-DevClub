@@ -58,7 +58,7 @@ https://github.com/sidnei-leao
 www.linkedin.com/in/sidnei-raya-leão
 </div>
 
-<a href="" target="_blank">
+<a href="https://github.com/sidnei-leao" target="_blank">
   <img src="https://shields.io" alt="GitHub">
 </a>
 <a href="https://linkedin.com" target="_blank">
