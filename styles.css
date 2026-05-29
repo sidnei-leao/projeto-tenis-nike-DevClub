@@ -10,8 +10,8 @@ body {
     color: #fff;
     /* padding: 20px 160px; */
     padding: 20px 5%;
-    height: 100vh;
-    overflow: hidden;
+    min-height: 100vh;
+    overflow-x: hidden;
 }
 
 body::before {
@@ -21,7 +21,7 @@ body::before {
     height: 120%;
     position: absolute;
     top: 0;
-    left: -600px;
+    left: -40%;
     transform: rotate(-70deg);
 }
 
@@ -51,10 +51,9 @@ body::after {
     /* Assim o elemento cresce até 700px, mas diminui quando a tela for menor.*/
     width: 100%;
     max-width: 700px;
-
-    transform: rotate(-25deg) translateX(100px);
-    z-index: 9999;
-    margin-left: 200px;
+    transform: rotate(-25deg);
+    margin-left: 0;
+    /* z-index: 9999; */
     animation: flutuar 4s ease-in-out infinite;
 }
 
@@ -115,6 +114,36 @@ body::after {
     }
 
 }
+
+@media (max-width: 1024px) {
+
+     .caixa-principal {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+     }
+
+      .tenis {
+        max-width: 450px;
+        margin-left: 0;
+        transform: rotate(-20deg);
+      }
+
+      body::after {
+        font-size: clamp(80px, 20vw, 250px );
+      }
+
+       .logo-nike {
+        right: 0;
+       }
+
+        .caixa-botoes {
+            justify-content: center;
+        }
+
+}
+
+
 
 .caixa-texto {
     max-width: 500px;
