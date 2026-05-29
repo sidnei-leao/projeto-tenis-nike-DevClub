@@ -8,10 +8,9 @@
 body {
     background: rgb(62, 62, 250);
     color: #fff;
-    /* padding: 20px 160px; */
     padding: 20px 5%;
     min-height: 100vh;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 body::before {
@@ -21,7 +20,7 @@ body::before {
     height: 120%;
     position: absolute;
     top: 0;
-    left: -40%;
+    left: -30%;
     transform: rotate(-70deg);
 }
 
@@ -32,11 +31,9 @@ body::after {
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
-    /* font-size: 250px; */
-    font-size: 80px;
+    font-size: 250px;
     font-weight: bold;
     opacity: 0.2;
-
 }
 
 .logo-nike {
@@ -47,14 +44,13 @@ body::after {
 }
 
 .tenis {
-    /* width: 700px; */
-
     /* Assim o elemento cresce até 700px, mas diminui quando a tela for menor.*/
-    width: 100%;
-    max-width: 280px;
+    /* width: 100%; */
+    /* max-width: 280px; */
     transform: rotate(-25deg);
+    width: 700px;
     margin-left: 0;
-    /* z-index: 9999; */
+    z-index: 9999;
     animation: flutuar 4s ease-in-out infinite;
 }
 
@@ -83,6 +79,7 @@ body::after {
 
 /* Quando a tela tiver 768px ou menos*/
 /* No CEL: deixa TEXTO e TENIS um em baixo e o outro em cima e CENTRALIZA tudo*/
+
 @media (max-width: 768px) {
 
     body {
@@ -108,10 +105,12 @@ body::after {
 
     body::after {
         font-size: 100px;
+        
     }
 
     .caixa-botoes {
         justify-content: center;
+        margin-top: 150px;
     }
 
 }
@@ -164,6 +163,7 @@ body::after {
 
 .caixa-texto {
     max-width: 500px;
+    margin-bottom: 250px;
 }
 
 p {
@@ -195,7 +195,8 @@ h1 {
     gap: 10px;
     position: relative;
     z-index: 2;
-    bottom: 30px;
+    bottom: 200px;
+   
 }
 
 .botao {
