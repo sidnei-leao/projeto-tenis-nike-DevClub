@@ -32,9 +32,10 @@ body::after {
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
-    font-size: 250px;
+    /* font-size: 250px; */
+    font-size: 80px;
     font-weight: bold;
-    opacity: 0.6;
+    opacity: 0.2;
 
 }
 
@@ -50,7 +51,7 @@ body::after {
 
     /* Assim o elemento cresce até 700px, mas diminui quando a tela for menor.*/
     width: 100%;
-    max-width: 700px;
+    max-width: 280px;
     transform: rotate(-25deg);
     margin-left: 0;
     /* z-index: 9999; */
@@ -141,6 +142,22 @@ body::after {
             justify-content: center;
         }
 
+}
+
+@media (max-width: 768px) {
+
+    body::before {
+        left: -250px;
+        transform: rotate(-60deg);
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .logo-nike {
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 
