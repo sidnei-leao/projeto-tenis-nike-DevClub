@@ -44,19 +44,18 @@
 📄 main.js
 ```
 
-## 🔗 Acesse e veja o site no ar
-- https://sidnei-leao.github.io/projeto-tenis-nike-DevClub/
+## 🔗 Acesse e veja o projeto on-line
+[![icons8-nike-96](https://github.com/user-attachments/assets/58968c96-8d27-4fb9-9597-3d6a7b41e674)](https://sidnei-leao.github.io/projeto-tenis-nike-DevClub/)
+
   
 ## 🔗 Meu Perfil
 
-<div display: flex;>
-<img width="48" height="48" alt="icons8-github" src="https://github.com/user-attachments/assets/9647570b-83b7-473e-a3e4-00a3f9ea1f01" />
-https://github.com/sidnei-leao
-</div>
-<div display: flex;>
-<img width="48" height="48" alt="icons8-linkedin" src="https://github.com/user-attachments/assets/2f3c52d3-000a-4de1-9ae2-4a90f47932bf" />
-www.linkedin.com/in/sidnei-raya-leão
-</div>
+<a href="https://github.com/sidnei-leao" target="_blank">
+  <img width="48" height="48" alt="icons8-github" src="https://github.com/user-attachments/assets/bfe112a0-2e0d-4015-920b-709357de9ded" />
+</a>
+<a href="https://linkedin.com" target="_blank">
+  <img width="48" height="48" alt="icons8-linkedin" src="https://github.com/user-attachments/assets/19b84c4b-c507-475f-b5ea-60c8ebc0a635" target="_blank" />
+</a>
 
 ## 📌 Autor
 
