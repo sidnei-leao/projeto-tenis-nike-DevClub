@@ -5,6 +5,13 @@
     font-family: "Noto Sans", sans-serif;
 }
 
+/* VARIÁVEL CSS*/
+:root {
+    --cor-neon: chartreuse;
+}
+
+
+
 body {
     background: rgb(62, 62, 250);
     color: #fff;
@@ -49,6 +56,7 @@ body::after {
     /* max-width: 280px; */
     transform: rotate(-25deg);
     width: 700px;
+    margin-right: 50px;
     margin-left: 0;
     z-index: 9999;
     animation: flutuar 4s ease-in-out infinite;
@@ -105,7 +113,7 @@ body::after {
 
     body::after {
         font-size: 100px;
-        
+
     }
 
     .caixa-botoes {
@@ -117,29 +125,29 @@ body::after {
 
 @media (max-width: 1024px) {
 
-     .caixa-principal {
+    .caixa-principal {
         flex-direction: column;
         text-align: center;
         gap: 30px;
-     }
+    }
 
-      .tenis {
+    .tenis {
         max-width: 450px;
         margin-left: 0;
         transform: rotate(-20deg);
-      }
+    }
 
-      body::after {
-        font-size: clamp(80px, 20vw, 250px );
-      }
+    body::after {
+        font-size: clamp(80px, 20vw, 250px);
+    }
 
-       .logo-nike {
+    .logo-nike {
         right: 0;
-       }
+    }
 
-        .caixa-botoes {
-            justify-content: center;
-        }
+    .caixa-botoes {
+        justify-content: center;
+    }
 
 }
 
@@ -152,7 +160,7 @@ body::after {
 }
 
 @media (max-width: 768px) {
-    
+
     .logo-nike {
         display: block;
         margin: 0 auto;
@@ -183,11 +191,18 @@ h1 {
     cursor: pointer;
     color: #fff;
     text-decoration: none;
+    transition: all 0.3s ease;
 }
 
 .botao-carrinho:hover {
-    background: white;
-    color: black;
+    box-shadow:
+        0 0 10px var(--cor-neon),
+        0 0 20px var(--cor-neon),
+        0 0 40px var(--cor-neon),
+        0 0 80px var(--cor-neon);
+    
+        transform: translateY(-10px);
+
 }
 
 .caixa-botoes {
@@ -196,7 +211,7 @@ h1 {
     position: relative;
     z-index: 2;
     bottom: 200px;
-   
+
 }
 
 .botao {
