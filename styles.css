@@ -8,7 +8,8 @@
 body {
     background: rgb(62, 62, 250);
     color: #fff;
-    padding: 20px 160px;
+    /* padding: 20px 160px; */
+    padding: 20px 5%;
     height: 100vh;
     overflow: hidden;
 }
@@ -45,7 +46,12 @@ body::after {
 }
 
 .tenis {
-    width: 700px;
+    /* width: 700px; */
+
+    /* Assim o elemento cresce até 700px, mas diminui quando a tela for menor.*/
+    width: 100%;
+    max-width: 700px;
+
     transform: rotate(-25deg) translateX(100px);
     z-index: 9999;
     margin-left: 200px;
@@ -73,6 +79,41 @@ body::after {
     height: 75%;
     position: relative;
     z-index: 1;
+}
+
+/* Quando a tela tiver 768px ou menos*/
+/* No CEL: deixa TEXTO e TENIS um em baixo e o outro em cima e CENTRALIZA tudo*/
+@media (max-width: 768px) {
+
+    body {
+        padding: 20px;
+        overflow-y: auto;
+    }
+
+    .caixa-principal {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tenis {
+        max-width: 350px;
+        margin-left: 0;
+        transform: rotate(-20deg);
+    }
+
+    .logo-nike {
+        width: 120px;
+        right: 0;
+    }
+
+    body::after {
+        font-size: 100px;
+    }
+
+    .caixa-botoes {
+        justify-content: center;
+    }
+
 }
 
 .caixa-texto {
