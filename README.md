@@ -43,7 +43,7 @@ O projeto consiste em uma Landing Page promocional de um tênis da Nike. O grand
 ## 🔧 Como Executar o Projeto
 1. Clone este repositório em sua máquina:
    ```bash
-   git clone https://github.com
+   https://github.com/sidnei-leao/projeto-tenis-nike-DevClub.git
    ```
 2. Navegue até a pasta do projeto.
 3. Abra o arquivo `index.html` diretamente no seu navegador ou utilize a extensão **Live Server** no VS Code.
