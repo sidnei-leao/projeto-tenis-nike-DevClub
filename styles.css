@@ -7,7 +7,7 @@
 
 /* VARIÁVEL CSS*/
 :root {
-    --cor-neon: chartreuse;
+    --cor-neon: #365fe4;
 }
 
 
@@ -18,6 +18,12 @@ body {
     padding: 20px 5%;
     min-height: 100vh;
     overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: background 0.5s ease;
+    /* Transição suave no fundo */
 }
 
 body::before {
@@ -29,6 +35,8 @@ body::before {
     top: 0;
     left: -30%;
     transform: rotate(-70deg);
+
+    z-index: 0;
 }
 
 body::after {
@@ -38,7 +46,11 @@ body::after {
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
-    font-size: 250px;
+
+    font-size: clamp(100px, 20vw, 250px);
+    /* Fonte responsiva automática */
+    z-index: 0;
+
     font-weight: bold;
     opacity: 0.2;
 }
@@ -47,7 +59,6 @@ body::after {
     width: 200px;
     position: relative;
     z-index: 2;
-    right: 50px;
 }
 
 .tenis {
@@ -58,6 +69,77 @@ body::after {
     width: 700px;
     margin-right: 50px;
     margin-left: 0;
+    z-index: 9999;
+    animation: flutuar 4s ease-in-out infinite;
+}
+
+
+.caixa-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex: 1;
+    /* height: 75%; */
+    position: relative;
+    z-index: 1;
+    margin-top: 40px;
+}
+
+.caixa-texto {
+    max-width: 500px;
+    /* margin-bottom: 250px; */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: var(--cor-neon);
+    /* Usa a variável dinâmica */
+    margin-top: 50px;
+    transition: color 0.5s ease;
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+.botao-carrinho {
+    background: var(--cor-neon);
+    /* Usa a variável dinâmica */
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    display: inline-block;
+}
+
+
+.botao-carrinho:hover {
+    box-shadow:
+        0 0 10px var(--cor-neon),
+        0 0 20px var(--cor-neon),
+        0 0 40px var(--cor-neon);
+    transform: translateY(-5px);
+}
+
+.caixa-imagem-tenis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .tenis {
+        max-width: 350px;
+        margin-left: 0;
+        transform: rotate(-20deg);
+    } */
+
+.tenis {
+    width: 100%;
+    max-width: 600px;
     z-index: 9999;
     animation: flutuar 4s ease-in-out infinite;
 }
@@ -76,147 +158,25 @@ body::after {
     }
 }
 
-.caixa-principal {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 75%;
-    position: relative;
-    z-index: 1;
-}
-
-/* Quando a tela tiver 768px ou menos*/
-/* No CEL: deixa TEXTO e TENIS um em baixo e o outro em cima e CENTRALIZA tudo*/
-
-@media (max-width: 768px) {
-
-    body {
-        padding: 20px;
-        overflow-y: auto;
-    }
-
-    .caixa-principal {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .tenis {
-        max-width: 350px;
-        margin-left: 0;
-        transform: rotate(-20deg);
-    }
-
-    .logo-nike {
-        width: 120px;
-        right: 0;
-    }
-
-    body::after {
-        font-size: 100px;
-
-    }
-
-    .caixa-botoes {
-        justify-content: center;
-        margin-top: 150px;
-    }
-
-}
-
-@media (max-width: 1024px) {
-
-    .caixa-principal {
-        flex-direction: column;
-        text-align: center;
-        gap: 30px;
-    }
-
-    .tenis {
-        max-width: 450px;
-        margin-left: 0;
-        transform: rotate(-20deg);
-    }
-
-    body::after {
-        font-size: clamp(80px, 20vw, 250px);
-    }
-
-    .logo-nike {
-        right: 0;
-    }
-
-    .caixa-botoes {
-        justify-content: center;
-    }
-
-}
-
-@media (max-width: 768px) {
-
-    body::before {
-        left: -250px;
-        transform: rotate(-60deg);
-    }
-}
-
-@media (max-width: 768px) {
-
-    .logo-nike {
-        display: block;
-        margin: 0 auto;
-    }
-}
-
-
-
-.caixa-texto {
-    max-width: 500px;
-    margin-bottom: 250px;
-}
-
-p {
-    margin-bottom: 50px;
-}
-
-h1 {
-    margin-bottom: 20px;
-    color: chartreuse;
-    margin-top: 50px;
-}
-
-.botao-carrinho {
-    background: chartreuse;
-    padding: 10px 20px;
-    border-radius: 15px;
-    cursor: pointer;
-    color: #fff;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-.botao-carrinho:hover {
-    box-shadow:
-        0 0 10px var(--cor-neon),
-        0 0 20px var(--cor-neon),
-        0 0 40px var(--cor-neon),
-        0 0 80px var(--cor-neon);
-    
-        transform: translateY(-10px);
-
-}
-
 .caixa-botoes {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     position: relative;
     z-index: 2;
-    bottom: 200px;
+    margin-top: 30px;
+}
 
+.botao:hover {
+    transform: scale(1.1);
 }
 
 .botao {
     width: 40px;
     height: 40px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: transform 0.2s;
 }
 
 .botao:active {
@@ -225,22 +185,57 @@ h1 {
 
 .azul {
     background-color: #365fe4;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
-
 }
 
 .rosa {
     background-color: #FF69B4;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
 }
 
 .verde {
     background-color: #556B2F;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
+}
+
+/* REGRAS RESPONSIVAS CONSOLIDADAS */
+
+@media (max-width: 1024px) {
+
+    .caixa-principal {
+        flex-direction: column-reverse;
+        /* Tênis fica em cima do texto no tablet/celular */
+        text-align: center;
+        gap: 50px;
+    }
+
+    .tenis {
+        max-width: 400px;
+        /* margin-left: 0;
+        transform: rotate(-20deg); */
+    }
+
+    .caixa-botoes {
+        justify-content: center;
+    }
+
+    @media (max-width: 768px) {
+
+        body {
+            /* padding: 20px; */
+            overflow-y: auto;
+        }
+
+        body::before {
+            left: -250px;
+            transform: rotate(-60deg);
+        }
+
+        .logo-nike {
+            width: 120px;
+            right: 0;
+            display: block;
+        }
+
+        .tenis {
+            max-width: 280px;
+        }
+    }
 }
