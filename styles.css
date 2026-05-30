@@ -146,15 +146,15 @@ p {
 
 @keyframes flutuar {
     0% {
-        transform: rotate(-25deg) translateX(100px) translateY(0px);
+        transform: rotate(-25deg) translateY(0px);
     }
 
     50% {
-        transform: rotate(-25deg) translateX(100px) translateY(-20px);
+        transform: rotate(-25deg) translateY(-20px);
     }
 
     100% {
-        transform: rotate(-25deg) translateX(100px) translateY(0px);
+        transform: rotate(-25deg) translateY(0px);
     }
 }
 
@@ -215,27 +215,27 @@ p {
     .caixa-botoes {
         justify-content: center;
     }
+}
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
 
-        body {
-            /* padding: 20px; */
-            overflow-y: auto;
-        }
+    body {
+        /* padding: 20px; */
+        overflow-y: auto;
+    }
 
-        body::before {
-            left: -250px;
-            transform: rotate(-60deg);
-        }
+    body::before {
+        left: -250px;
+        transform: rotate(-60deg);
+    }
 
-        .logo-nike {
-            width: 120px;
-            right: 0;
-            display: block;
-        }
+    .logo-nike {
+        width: 120px;
+        right: 0;
+        display: block;
+    }
 
-        .tenis {
-            max-width: 280px;
-        }
+    .tenis {
+        max-width: 280px;
     }
 }
