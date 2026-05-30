@@ -18,7 +18,8 @@
 ## <img width="50" height="50" alt="icons8-configurações" src="https://github.com/user-attachments/assets/5b476de0-82ae-450c-870d-b344b6c447ce" />
  # Funcionalidades
 
-- Troca de cor do fundo
+- Troca de cor do fundo (body)
+- Troca de cor do botão adicionar e nome "NIKE"
 - Alteração da imagem do tênis
 - Layout responsivo
 - Animação flutuante do produto
@@ -26,11 +27,14 @@
 ## <img width="50" height="50" alt="icons8-fotografia" src="https://github.com/user-attachments/assets/405a1149-7635-4f8f-a5d4-70bb68f2f4d7" />
  # Preview
 
-<img width="1366" height="638" alt="tenis-nike-azul-redime" src="https://github.com/user-attachments/assets/5d74fbf5-8a5a-4186-b3ea-7d0cb4200c3f" />
+<img width="1366" height="633" alt="tenis-nike-azul" src="https://github.com/user-attachments/assets/e5d2d0fa-cf35-4b35-aae7-e7784f23d721" />
 
-<img width="1366" height="641" alt="tenis-nike-rosa-redime" src="https://github.com/user-attachments/assets/ac22ea21-9ee8-46ef-9a74-e2c568c29e41" />
 
-<img width="1366" height="639" alt="tenis-nike-verde-flutuando" src="https://github.com/user-attachments/assets/93bf26a0-8d52-47c7-a19b-76b3905074f2" />
+<img width="1366" height="639" alt="tenis-nike-rosa" src="https://github.com/user-attachments/assets/26ac5110-7abe-46e7-87a0-83786a54f9eb" />
+
+
+<img width="1366" height="639" alt="tenis-nike-verde" src="https://github.com/user-attachments/assets/59aa38ef-eb92-48af-a3a4-761155c7b764" />
+
 
 
 <br><br><br>
