@@ -15,15 +15,16 @@
    <img width="48" height="48" alt="icons8-javascript" src="https://github.com/user-attachments/assets/b8f96cff-4799-413d-8703-4910b796dbe0" />
 </div>
 
+## 💻 Sobre o Projeto
+O projeto consiste em uma Landing Page promocional de um tênis da Nike. O grande diferencial é a interatividade: ao clicar nos botões de seleção de cores, a página se adapta completamente à paleta do produto escolhido de forma suave.
 
 ## <img width="50" height="50" alt="icons8-configurações" src="https://github.com/user-attachments/assets/5b476de0-82ae-450c-870d-b344b6c447ce" />
  # Funcionalidades
 
-- Troca de cor do fundo (body)
-- Troca de cor do botão adicionar e nome "NIKE"
-- Alteração da imagem do tênis
-- Layout responsivo
-- Animação flutuante do produto
+- **Troca Dinâmica de Cores:** Altera o fundo do site, cor do botão de carrinho e títulos com base na cor selecionada.
+- **Animação Fluida:** O tênis possui um efeito flutuante contínuo feito puramente com CSS (@keyframes).
+- **Interface Responsiva:** Layout totalmente adaptado para visualização em computadores, tablets e smartphones.
+- **Estilização com Variáveis CSS:** Uso de propriedades customizadas (`:root`) atualizadas via JavaScript em tempo real.
 <br><br><br>
 ## <img width="50" height="50" alt="icons8-fotografia" src="https://github.com/user-attachments/assets/405a1149-7635-4f8f-a5d4-70bb68f2f4d7" />
  # Preview
@@ -38,7 +39,14 @@
 
 
 
-<br><br><br>
+<br><br>
+## 🔧 Como Executar o Projeto
+1. Clone este repositório em sua máquina:
+   ```bash
+   git clone https://github.com
+   ```
+2. Navegue até a pasta do projeto.
+3. Abra o arquivo `index.html` diretamente no seu navegador ou utilize a extensão **Live Server** no VS Code.
 ## <img width="48" height="48" alt="icons8-arquivo" src="https://github.com/user-attachments/assets/d2650115-21c1-42be-ba05-dc728433e758" />
  # Estrutura do projeto
 
