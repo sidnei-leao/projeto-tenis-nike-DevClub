@@ -70,6 +70,5 @@ O projeto consiste em uma Landing Page promocional de um tênis da Nike. O grand
   <img width="48" height="48" alt="icons8-linkedin" src="https://github.com/user-attachments/assets/19b84c4b-c507-475f-b5ea-60c8ebc0a635" target="_blank" />
 </a>
 
-## 📌 Autor
-
-Feito por Sidnei leão 🚀
+## 🧑‍💻 Autor
+Desenvolvido por Sidnei leão 🚀
