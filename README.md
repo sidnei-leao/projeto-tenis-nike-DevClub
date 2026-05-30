@@ -1,10 +1,11 @@
 <div align= center>
-    <h1>Tênis Nike</h1>
+    <h1>Projeto Tênis Nike - Vitrine Interativa</h1>
 </div>
 <br>
 <br>
 
-## <p align="center">Projeto de uma página interativa de tênis Nike desenvolvido com HTML, CSS e JavaScript.</p>
+## <p align="center">Uma página de vitrine de produto moderna e responsiva focada na experiência do usuário, permitindo alternar dinamicamente a cor do produto, o fundo da tela e os elementos visuais de destaque.</p>
+
 
 ## <p align="center">🚀 Tecnologias utilizadas
 
